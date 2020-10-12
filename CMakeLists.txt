@@ -1,6 +1,6 @@
 # Configuration for building example C programs.
 cmake_minimum_required(VERSION 3.10)
-project(lec10a C)
+project(lec09a C)
 include(.ipd/cmake/CMakeLists.txt)
 
 add_c_program(output src/output.c)
