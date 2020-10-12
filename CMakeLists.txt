@@ -17,3 +17,7 @@ add_c_program(fib_iter src/fib.c
 add_c_program(fast_fib_rec src/fib.c
         UBSAN
         DEFINES FIB=fast_fib_rec)
+
+add_c_program(ipd09a-2 exercise/ipd09a-2.c)
+add_c_program(ipd09a-4 exercise/ipd09a-4.c)
+add_c_program(ipd09a-5 exercise/ipd09a-5.c)
