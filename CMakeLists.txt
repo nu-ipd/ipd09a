@@ -13,3 +13,7 @@ add_c_program(fib_rec src/fib.c)
 add_c_program(fib_iter src/fib.c
         UBSAN
         DEFINES FIB=fib_iter)
+
+add_c_program(fast_fib_rec src/fib.c
+        UBSAN
+        DEFINES FIB=fast_fib_rec)
