@@ -1,5 +1,8 @@
 # CLion configuration
-.idea/
+/.idea/*
+!/.idea/codeStyles
+!/.idea/inspectionProfiles
+!/.idea/misc.xml
 
 # CMake build directories:
 build/
