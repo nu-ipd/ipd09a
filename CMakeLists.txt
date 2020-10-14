@@ -11,11 +11,9 @@ add_c_program(multi_input src/multi_input.c)
 add_c_program(fib_rec src/fib.c)
 
 add_c_program(fib_iter src/fib.c
-        UBSAN
         DEFINES FIB=fib_iter)
 
 add_c_program(fast_fib_rec src/fib.c
-        UBSAN
         DEFINES FIB=fast_fib_rec)
 
 add_c_test_program(ipd09a-2 exercise/ipd09a-2.c)
